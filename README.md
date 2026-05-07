@@ -25,59 +25,59 @@ Se consulta en la guia completa en [INSTALACION.md](INSTALACION.md).
 A continuación se muestran evidencias con capturas de pantalla de las operaciones CRUD del sistema de biblioteca:
 
 <details>
-	<summary>Listado de libros</summary>
+  <summary>Listado de libros</summary>
 
-	![Listado de libros](./.docs/capturas/listado-libros.png)
+![Listado de libros](./.docs/capturas/listado-libros.png)
 
-	Descripcion: pantalla principal con listado, busqueda y boton de agregar para libros.
+Descripcion: pantalla principal con listado, busqueda y boton de agregar para libros.
 </details>
 
 <details>
-	<summary>Modal de registro de libros</summary>
+  <summary>Modal de registro de libros</summary>
 
-	![Modal de registro de libros](./.docs/capturas/registro-libro.png)
+![Modal de registro de libros](./.docs/capturas/registro-libro.png)
 
-	Descripcion: formulario para crear un nuevo libro.
+Descripcion: formulario para crear un nuevo libro.
 </details>
 
 <details>
-	<summary>Libro agregado correctamente</summary>
+  <summary>Libro agregado correctamente</summary>
 
-	![Libro agregado correctamente](./.docs/capturas/nuevo-libro-agregado.png)
+![Libro agregado correctamente](./.docs/capturas/nuevo-libro-agregado.png)
 
-	Descripcion: Muestra cuando es agregado un nuevo libro al catálogo.
+Descripcion: Muestra cuando es agregado un nuevo libro al catálogo.
 </details>
 
 <details>
-	<summary>Modal de edición de libros</summary>
+  <summary>Modal de edicion de libros</summary>
 
-	![Modal de edición de libros](./.docs/capturas/edicion-libro.png)
+![Modal de edicion de libros](./.docs/capturas/edicion-libro.png)
 
-	Descripcion: formulario para actualizar la información de un libro.
+Descripcion: formulario para actualizar la informacion de un libro.
 </details>
 
 <details>
-	<summary>Libro actualizado correctamente</summary>
+  <summary>Libro actualizado correctamente</summary>
 
-	![Libro actualizado correctamente](./.docs/capturas/libro-actualizado.png)
+![Libro actualizado correctamente](./.docs/capturas/libro-actualizado.png)
 
-	Descripcion: Muestra cuando es actualizado un libro correctamente.
+Descripcion: Muestra cuando es actualizado un libro correctamente.
 </details>
 
 <details>
-	<summary>Alert de eliminación de un libro</summary>
+  <summary>Alert de eliminacion de un libro</summary>
 
-	![Alert de eliminación de un libro](./.docs/capturas/eliminación-libro.png)
+![Alert de eliminacion de un libro](./.docs/capturas/eliminación-libro.png)
 
-	Descripcion: Alerta de advertencia cuando se va a eliminar un libro.
+Descripcion: Alerta de advertencia cuando se va a eliminar un libro.
 </details>
 
 <details>
-	<summary>Libro eliminado correctamente</summary>
+  <summary>Libro eliminado correctamente</summary>
 
-	![Libro eliminado correctamente](./.docs/capturas/libro-eliminado.png)
+![Libro eliminado correctamente](./.docs/capturas/libro-eliminado.png)
 
-	Descripcion: Muestra cuando es eliminado un libro correctamente.
+Descripcion: Muestra cuando es eliminado un libro correctamente.
 </details>
 
 ## Uso de IA

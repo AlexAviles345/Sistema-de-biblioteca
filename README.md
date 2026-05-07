@@ -27,7 +27,7 @@ A continuación se muestran evidencias con capturas de pantalla de las operacion
 <details>
 	<summary>Listado de libros</summary>
 
-	![Listado de libros](.docs/capturas/listado-libros.png)
+	![Listado de libros](./.docs/capturas/listado-libros.png)
 
 	Descripcion: pantalla principal con listado, busqueda y boton de agregar para libros.
 </details>
@@ -35,7 +35,7 @@ A continuación se muestran evidencias con capturas de pantalla de las operacion
 <details>
 	<summary>Modal de registro de libros</summary>
 
-	![Modal de registro de libros](.docs/capturas/registro-libro.png)
+	![Modal de registro de libros](./.docs/capturas/registro-libro.png)
 
 	Descripcion: formulario para crear un nuevo libro.
 </details>
@@ -43,7 +43,7 @@ A continuación se muestran evidencias con capturas de pantalla de las operacion
 <details>
 	<summary>Libro agregado correctamente</summary>
 
-	![Libro agregado correctamente](.docs/capturas/nuevo-libro-agregado.png)
+	![Libro agregado correctamente](./.docs/capturas/nuevo-libro-agregado.png)
 
 	Descripcion: Muestra cuando es agregado un nuevo libro al catálogo.
 </details>
@@ -51,7 +51,7 @@ A continuación se muestran evidencias con capturas de pantalla de las operacion
 <details>
 	<summary>Modal de edición de libros</summary>
 
-	![Modal de edición de libros](.docs/capturas/edicion-libro.png)
+	![Modal de edición de libros](./.docs/capturas/edicion-libro.png)
 
 	Descripcion: formulario para actualizar la información de un libro.
 </details>
@@ -59,7 +59,7 @@ A continuación se muestran evidencias con capturas de pantalla de las operacion
 <details>
 	<summary>Libro actualizado correctamente</summary>
 
-	![Libro actualizado correctamente](.docs/capturas/libro-actualizado.png)
+	![Libro actualizado correctamente](./.docs/capturas/libro-actualizado.png)
 
 	Descripcion: Muestra cuando es actualizado un libro correctamente.
 </details>
@@ -67,7 +67,7 @@ A continuación se muestran evidencias con capturas de pantalla de las operacion
 <details>
 	<summary>Alert de eliminación de un libro</summary>
 
-	![Alert de eliminación de un libro](.docs/capturas/eliminación-libro.png)
+	![Alert de eliminación de un libro](./.docs/capturas/eliminación-libro.png)
 
 	Descripcion: Alerta de advertencia cuando se va a eliminar un libro.
 </details>
@@ -75,7 +75,7 @@ A continuación se muestran evidencias con capturas de pantalla de las operacion
 <details>
 	<summary>Libro eliminado correctamente</summary>
 
-	![Libro eliminado correctamente](.docs/capturas/libro-eliminado.png)
+	![Libro eliminado correctamente](./.docs/capturas/libro-eliminado.png)
 
 	Descripcion: Muestra cuando es eliminado un libro correctamente.
 </details>

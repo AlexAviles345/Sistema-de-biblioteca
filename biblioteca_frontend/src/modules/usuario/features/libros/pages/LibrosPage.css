@@ -1,0 +1,138 @@
+.libros-page {
+  padding: 32px 0 72px;
+}
+
+.libros-hero {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 243, 228, 0.98) 0%,
+    rgba(220, 247, 255, 0.9) 55%,
+    rgba(243, 245, 255, 0.9) 100%
+  );
+  border: 1px solid var(--border-color);
+  border-radius: 26px;
+  box-shadow: var(--shadow-soft);
+  padding: 28px;
+  position: relative;
+  overflow: hidden;
+}
+
+.libros-hero::after {
+  content: '';
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  right: -140px;
+  top: -180px;
+  background: radial-gradient(
+    circle,
+    rgba(32, 107, 93, 0.2) 0%,
+    rgba(32, 107, 93, 0) 70%
+  );
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.libros-hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+
+.search-panel {
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 16px;
+  backdrop-filter: blur(8px);
+}
+
+.glass-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 18px;
+  box-shadow: var(--shadow-tight);
+}
+
+.glass-card .card-header {
+  background: transparent;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.table-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 18px;
+  box-shadow: var(--shadow-tight);
+}
+
+.fade-rise {
+  animation: fadeRise 0.6s ease both;
+}
+
+.fade-rise.delay-1 {
+  animation-delay: 0.08s;
+}
+
+.fade-rise.delay-2 {
+  animation-delay: 0.16s;
+}
+
+@keyframes fadeRise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.libro-thumb {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid var(--border-color);
+}
+
+.libro-detail-img {
+  width: 220px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-tight);
+}
+
+.libro-detail-placeholder {
+  width: 220px;
+  height: 240px;
+  border-radius: 14px;
+  border: 1px dashed var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.detail-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
+
+.detail-value {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .libro-detail-img,
+  .libro-detail-placeholder {
+    width: 100%;
+    height: 200px;
+  }
+}

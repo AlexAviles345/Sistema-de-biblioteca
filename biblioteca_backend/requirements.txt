@@ -1,0 +1,18 @@
+# Django core
+Django==6.0.1
+djangorestframework==3.16.1
+
+# Documentacion Swagger / OpenAPI
+drf-spectacular==0.29.0
+
+# CORS
+django-cors-headers==4.9.0
+
+# Variables de entorno
+python-decouple==3.8
+
+# MySQL
+mysqlclient==2.2.8
+
+# ImageField (libros.foto)
+Pillow==12.1.0

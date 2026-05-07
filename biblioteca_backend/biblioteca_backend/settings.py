@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'drf_spectacular',
     'corsheaders',
     'libros',
 ]
@@ -69,6 +71,18 @@ TEMPLATES = [
         },
     },
 ]
+
+# Configuración de Django REST Framework
+REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+}
+
+# Configuración de drf-spectacular para la documentación de la API
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'API Biblioteca',
+    'DESCRIPTION': 'Documentación de la API del sistema de biblioteca',
+    'VERSION': '1.0.0',
+}
 
 WSGI_APPLICATION = 'biblioteca_backend.wsgi.application'
 
